@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma design</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header class="container--fluid bg--light-blue">
+        <div class="container main-menu">
+            <div class="logo">
+                <img src="images/E-sheba.svg" alt="logo">
+            </div>
+            <nav class="main-nav">
+                <span class="hamburger">
+                    <span class="bar bar-top"></span>
+                    <span class="bar bar-middle"></span>
+                    <span class="bar bar-bottom"></span>
+                </span>
+                <div class="main-nav__content">
+                    <ul class="main-nav__links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Application</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                    <ul class="main-nav__auth-links">
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#" class="active">Sign up</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="container--fluid bg--light-blue">
+        <div class="container hero-banner">
+            <div class="hero-banner__text-content">
+                <h1 class="hero-banner__title">
+                    Find & Search Your <br>
+                    <span class="hero-banner__title__header-item">Favourite</span> Doctor
+                </h1>
+                <p class="hero-banner__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Sem velit viverra amet faucibus.
+                </p>
+
+                <div class="hero-banner__form">
+                    <form action="#">
+                        <div class="hero-banner__form__doctor-section">
+                            <select name="doctor" id="doctor" class="hero-banner__form__doctor">
+                                <option value="doctor">Doctor's Name</option>
+                            </select>
+                        </div>
+
+                        <div class="hero-banner__form__doctor-location">
+                            <select name="location" id="location" class="hero-banner__form__location">
+                                <option value="location">Location</option>
+                            </select>
+                        </div>
+
+                        <button class="hero-banner__form__submit-btn" value="submit">
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="hero-banner__circle">
+                <div class="hero-banner__circle__img">
+                    <img src="images/doctor.png" alt="round-image">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="container--fluid bg--blue">
+        <div class="container output-banner">
+            <div class="output-banner__numbers-content">
+
+                <div class="output-banner__online-support">
+                    <h1 class="output-banner__online-support__header">24/7</h1>
+                    <p class="output-banner__online-support__text">Online Support</p>
+                </div>
+
+                <div class="output-banner__doctors">
+                    <h1 class="output-banner__doctors__header">100+</h1>
+                    <p class="output-banner__doctors__text">Doctors</p>
+                </div>
+
+                <div class="output-banner__patients">
+                    <h1 class="output-banner__patients__header">1M+</h1>
+                    <p class="output-banner__patients__text">Active Patients</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container--fluid bg--white">
+        <div class="container consulting-container">
+            <div class="consulting-container__header">
+                Our Consulting Specialists
+            </div>
+
+            <div class="consulting-container__cards-container">
+
+                <div class="consulting-container__cards-container__card-container">
+                    <div class="consulting-container__cards-container__card-container__card-contents">
+
+                        <button class="consulting-container__cards-container__card-container__card-contents__img-btn1">
+                        </button>
+                        <h2 class="consulting-container__cards-container__card-container__card-contents__title">Covid-19
+                            Test</h2>
+                        <p>Lorem ipsum dolor sit amet ,<br>consectetur adipiscing elit. Sem <br>
+                            velit viverra amet faucibus.</p>
+
+                    </div>
+                </div>
+
+                <div class=" consulting-container__cards-container__card-container active">
+                    <div class="consulting-container__cards-container__card-container__card-contents ">
+
+                        <button class="consulting-container__cards-container__card-container__card-contents__img-btn2">
+                        </button>
+                        <h2 class="consulting-container__cards-container__card-container__card-contents__title">Heart
+                            Lungs</h2>
+                        <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Sem <br>
+                            velit viverra amet faucibus.</p>
+
+                    </div>
+                </div>
+
+                <div class="consulting-container__cards-container__card-container">
+                    <div class="consulting-container__cards-container__card-container__card-contents">
+
+                        <button class="consulting-container__cards-container__card-container__card-contents__img-btn3">
+                        </button>
+                        <h2 class="consulting-container__cards-container__card-container__card-contents__title">
+                            Suppliment</h2>
+                        <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Sem <br>
+                            velit viverra amet faucibus.</p>
+                    </div>
+                </div>
+
+                <div class=" consulting-container__cards-container__card-container">
+                    <div class="consulting-container__cards-container__card-container__card-contents">
+
+                        <button class="consulting-container__cards-container__card-container__card-contents__img-btn4">
+                        </button>
+                        <h2 class="consulting-container__cards-container__card-container__card-contents__title">Mental
+                            Health</h2>
+                        <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Sem <br>
+                            velit viverra amet faucibus.</p>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+     <section class="container--fluid bg--white">
+        <div class="container doctor-banner">
+            <div class="doctor-banner__doctor-img">
+                <img src="images/doctor-img.svg" alt="surgury picture">
+            </div>
+            <div class="hero-banner__text-feild">
+
+                <h2 class="doctor-banner__text-feild__title">Why You Choose Us?</h2>
+
+                <div class="doctor-banner__text-feild__descriptions">
+                    <p class="doctor-banner__text-feild__descriptions__description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</p>
+                    <p class="doctor-banner__text-feild__descriptions__description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</p>
+                    <p class="doctor-banner__text-feild__descriptions__description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</p>
+                    <p class="doctor-banner__text-feild__descriptions__description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</p>
+                    <p class="doctor-banner__text-feild__descriptions__description">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</p>
+                </div>
+                <div class="doctor-banner__arrow">
+                    <p>Learn More</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container--fluid bg--light-blue">
+
+        <div class="container reveiw-banner">
+            <div class="reveiw-banner__text-feild">
+                <div class="reveiw-banner__text-feild__title">
+                    <h2 class="reveiw-banner__text-feild__title"> What <span
+                            class="reveiw-banner__text-feild__title__color-item">Our Member’s</span> <br>
+                        Saying About Us</h2>
+                </div>
+                <div class="reveiw-banner__text-feild__description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Sem velit viverra amet faucibus.
+                    </p>
+                </div>
+                <div class="reveiw-banner__reveiwers">
+                    <div class="reveiw-banner__reveiwers__left-icons">
+                        <img src="images/reveiwer-1.svg" alt="">
+                        <img src="images/reviewer-2.svg" alt="">
+                        <img src="images/reviewer-3.svg" alt="">
+                        <img src="images/reviewer-4.svg" alt="">
+                        <img src="images/reviewer-5.svg" alt="">
+                        <img src="images/reviewer-6.svg" alt="">
+                    </div>
+                    <div class="reveiw-banner__reveiwers__right-text">
+                        <h4>100+ Reveiws</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="reveiw-banner__reveiw-card ">
+                <div class="reveiw-banner__reveiw-card__contents">
+                    <div class="reveiw-banner__reveiw-card__icons">
+                        <div class="reveiw-banner__reveiw-card__icons__profile-icon">
+                            <img src="images/reviewer-5.svg" alt="">
+                        </div>
+
+                        <div class="reveiw-banner__reveiw-card__icons__profile-section">
+                            <div class="reveiw-banner__reveiw-card__icons__profile-section__profile-title">
+                                <h4>Jane Cooper</h4>
+                            </div>
+
+                            <div class="reveiw-banner__reveiw-card__icons__profile-section__profile-date">
+                                <p>12/4/17</p>
+                            </div>
+                        </div>
+                        <div class="reveiw-banner__reveiw-card__icons__star-icons">
+                            <img src="images/star-icon.svg" alt="">
+                            <img src="images/star-icon.svg" alt="">
+                            <img src="images/star-icon.svg" alt=""> <br>
+                            <img src="images/star-icon.svg" alt="">
+                            <img src="images/star-icon.svg" alt="">
+                            <img src="images/star-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="reveiw-banner__reveiw-card__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container--fluid bg--white">
+        <div class="container future__banner">
+            <div class="future__banner__contents">
+                <div class="future__banner__contents__left-descriptions">
+                    <div class="future__banner__contents__left-descriptions__title">
+                        <h2 class="future__banner__contents__left-descriptions__title">The Future <br>
+                            of <span class="future__banner__contents__left-descriptions__title color-item">Quality
+                                Health</span>
+                        </h2>
+                    </div>
+                    <p class="future__banner__contents__left-descriptions__para1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus <br> feugiat lectus risus sed
+                        ullamcorper. Auctor semper fermen <br> volutpat integer vel. In rhoncus elementum nunc,
+                        malesuada mi <br> sed. Nibh est sit lobortis id semper.
+                    </p>
+
+                    <p class="future__banner__contents__left-descriptions__para1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus <br> feugiat lectus risus sed
+                        ullamcorper. Auctor semper fer <br> volutpat integer vel. In rhoncus elementum nunc, malesuada
+                        mi <br> sed. Nibh est sit lobortis id semper.
+                    </p>
+
+                    <p class="future__banner__contents__left-descriptions__para1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus <br> feugiat lectus risus sed
+                        ullamcorper. Auctor semper fermentum vol <br>
+                    </p>
+
+                    <div class="doctor-banner__arrow">
+                        <p>Learn More</p>
+                    </div>
+                </div>
+                <div class="future__banner__contents__right-img">
+                    <img src="images/future-doctor-img.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container--fluid bg--white">
+        <div class="container subscribe-banner bg--blue">
+            <div class="subscribe-banner__contents">
+                <div class="subscribe-banner__contents__title">
+                    <h3 class="subscribe-banner__contents__title">Subscribe To Our Newsletter</h3>
+                </div>
+                <div class="subscribe-banner__contents__input-field">
+                    <div class="subscribe-banner__contents__input-field__input">
+                        <button class="subscribe-banner__contents__input-field__input__next-btn"><img
+                                src="images/white-arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="js/my.js"></script>
+</body>
+
+</html>
