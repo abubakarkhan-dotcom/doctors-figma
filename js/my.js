@@ -8,4 +8,9 @@ hamburgerButton.addEventListener('click', () => {
   navMenu.classList.toggle('main-nav__content--active');
 
   hamburgerButton.classList.toggle('is-active');
+  if (hamburgerButton.classList.contains('is-active')) {
+    document.body.style.overflow = 'hidden';
+  } else {
+    document.body.style.overflow = '';
+  }
 });
