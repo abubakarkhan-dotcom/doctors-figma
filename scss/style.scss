@@ -861,7 +861,7 @@ body {
                  padding-left: 35px;
 
                  @media (max-width : $viewport-switch) {
-                    padding-left: 158px;
+                    padding-right: 0px;
                  }
                 &__profile-date {
                     font-size: 12px;

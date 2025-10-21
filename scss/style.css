@@ -773,7 +773,7 @@ body * {
 }
 @media (max-width: 768px) {
   .reveiw-banner__reveiw-card__icons__profile__profile-section {
-    padding-left: 158px;
+    padding-right: 0px;
   }
 }
 .reveiw-banner__reveiw-card__icons__profile__profile-section__profile-date {
